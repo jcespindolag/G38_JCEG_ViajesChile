@@ -43,12 +43,7 @@ main{
 }
 
 /*Sección destacados*/
-.relevant{
-    padding-left: 100px;
-    padding-right: 100px;
-}
 .card{
-    padding: 20px;
     background-color: black;
 }
 .card-body{
