@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
 
-    <!--Agrega fuente de google-fonts Roboto Regular 400 y Bold 700-->
+    <!--Agrega fuentes de google-fonts: Roboto Regular 400 y Bold 700-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -26,39 +26,33 @@
         <!--Agrega barra de navegación-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
-                <img
-                    class="me-3"
-                    src="assets/img/viajes.svg"
-                    width="50px"
-                    alt="Favicon logo"
-                >
-                <a 
-                    class="navbar-brand"
-                    href="#"
-                    > Viajes Chile
-                </a>
+                <img class="me-3" src="assets/img/viajes.svg" width="40px" alt="Favicon logo Viajes Chile">
+                <a  class="navbar-brand" href="#"> Viajes Chile</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quiénes somos</a>
+                            <a class="nav-link" href="#about-us">Quiénes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#relevant">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contact">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!--Agrega el carrusel-->
+    </header>
+
+    <main>
+        <!--Agrega el carrusel de bootstrap-->
         <section class="carousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
@@ -87,11 +81,9 @@
             </button>
             </div>
         </section>
-    </header>
 
-    <main class="container-fluid">
-        <!--Agrega sección quiénes somos-->
-        <section class="description">
+        <!--Agrega sección Quiénes Somos-->
+        <section id="about-us" class="about-us container    ">
             <h2 class="subtitle">¿QUIÉNES SOMOS?</h2>
                 <hr class="bg-info mb-4" />
                 <div class="row">
