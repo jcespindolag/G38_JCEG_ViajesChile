@@ -23,17 +23,18 @@ main{
 }
 .article-img{
     background-color: #0DCAF0;
-    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .article-img i{
-    width: 20px;
     color: #FFFFFF;
 }
 .article-p{
     color: #FFFFFF;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    display: inline-block;
+    font-size: 16px;
+   text-align: justify;
 }
 
 /*Sección destacados*/
