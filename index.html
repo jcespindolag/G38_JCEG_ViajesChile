@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+
+    <!--Agrega fuente de google-fonts Roboto Regular 400 y Bold 700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--Agrega vinculo a libreria font-awesome 6.2.0-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Agrega vinculo a css de bootstrap 5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!--Agrega vinculo a mi css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--Agrega barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <img
+                    class="me-3"
+                    src="assets/img/viajes.svg"
+                    width="50px"
+                    alt="Favicon logo"
+                >
+                <a 
+                    class="navbar-brand"
+                    href="#"
+                    > Viajes Chile
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quiénes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Agrega el carrusel-->
+        <section class="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen 1 carousel">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Imagen 2 carousel">
+                </div>
+                <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Imagen 3 carousel">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+    </header>
+
+    <main class="container-fluid">
+        <!--Agrega sección quiénes somos-->
+        <section class="description">
+            <h2 class="subtitle">¿QUIÉNES SOMOS?</h2>
+                <hr class="bg-info mb-4" />
+                <div class="row">
+                    <div class="article col-12 col-sm-12 col-md-4 col-lg-4 col text-left">
+                        <p class="article-img">
+                            <i class="fa-solid fa-plane"></i>
+                        </p>
+                        <p class="article-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in vehicula massa. Curabitur venenatis tellus id magna tincidunt, in bibendum lacus vestibulum. Ut eu lectus bibendum, gravida magna vehicula, convallis odio. Sed non nunc ullamcorper neque tempor egestas lacinia at augue. Nam dui dolor, pharetra non ultricies a, vehicula ac enim. Curabitur vitae dolor a arcu scelerisque commodo id non lectus. Duis quis accumsan sapien. Aliquam arcu tortor, auctor id semper a, ultrices condimentum lacus. Aenean ullamcorper odio vel diam malesuada placerat. Cras condimentum neque at tincidunt congue. Curabitur vulputate eros sed libero interdum pretium. Suspendisse tempus augue ullamcorper dui aliquam, tincidunt euismod neque dignissim. Phasellus eu mauris luctus, consequat ex quis, suscipit ligula. Quisque faucibus dolor sed porta placerat. Nam vitae quam congue, feugiat neque eget, egestas sem.</p>
+                    </div>
+                    <div class="article col-12 col-sm-12 col-md-4 col-lg-4 col text-left">
+                        <p class="article-p">Mauris quis leo lacus. Nullam sit amet libero faucibus, elementum ante feugiat, congue lorem. Nulla facilisi. Ut ut ante sollicitudin, commodo urna at, viverra odio. Quisque ornare vitae risus et tempor. Nulla tincidunt lectus ultrices euismod ullamcorper. Sed at enim suscipit, finibus augue eget, rhoncus metus. Mauris tincidunt placerat mollis. Aliquam sed euismod enim, ut lacinia ex. Vestibulum rhoncus pellentesque sapien, quis tempor diam imperdiet elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa mauris, non sodales sapien sollicitudin posuere. Suspendisse tempus dui id lacus pulvinar rutrum. Cras sed tortor nibh. Curabitur id elit et tortor pretium rhoncus sed ut magna. Donec nunc nisi, porttitor ut tellus vel, facilisis luctus tortor.</p>
+                        <p class="article-img">
+                            <i class="fa-solid fa-mountain"></i>
+                        </p>
+                    </div>
+                    <div class="article col-12 col-sm-12 col-md-4 col-lg-4 col text-left">
+                        <p class="article-img">
+                            <i class="fa-solid fa-route"></i>
+                        </p>
+                        <p class="article-p">Maecenas sit amet erat dui. Nulla at justo et lectus congue mollis. Maecenas sed urna nisl. Morbi id nibh magna. Maecenas ut mattis nulla, ac bibendum elit. Pellentesque mattis lectus et tellus tempus sagittis. Aenean ante ex, interdum ut turpis vitae, faucibus pharetra leo. Nam posuere lacus eu est elementum, non facilisis lacus rhoncus. Donec feugiat fringilla nisl, et sollicitudin est gravida nec. Praesent tincidunt, massa vitae ullamcorper semper, libero felis ultricies justo, pulvinar efficitur tellus mi at mauris. Vestibulum ipsum augue, ullamcorper at egestas et, pharetra non purus. Sed cursus tellus eget magna consectetur porta. Aenean elementum enim nunc, eu vestibulum felis faucibus non.</p>
+                    </div>
+                </div>
+        </section>
+
+        <!--Agrega sección destacados-->
+        <section>
+            <h2 class="subtitle">DESTACADOS</h2>
+            <hr class="bg-info mb-4" />
+            <div class="relevant row">
+                <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="Card#1">
+                    <div class="card-body">
+                       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, doloremque dicta provident odio molestias assumenda minima atque eos minus cumque, a quas reiciendis aperiam laboriosam inventore hic odit, itaque neque.</p>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="Card#2">
+                    <div class="card-body">
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, hic eligendi? Error voluptates corporis dolorum at sapiente expedita labore, voluptate commodi aperiam, molestiae ratione nihil temporibus facilis quis vitae nobis!</p>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="Card#3">
+                    <div class="card-body">
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sapiente similique exercitationem, tempora ab suscipit, odio modi excepturi ullam velit sint deserunt adipisci eius doloremque culpa! Blanditiis voluptatem sint ratione?</p>
+                    </div>
+                </div>
+                <div class="card col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="Card#4">
+                    <div class="card-body">
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et iusto est distinctio, placeat quis culpa adipisci saepe vero perferendis qui sit odit harum. Eius eligendi labore dolore rem earum?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Agrega sección contacto-->
+        <section class="contact">
+            <h2  class="subtitle">CONTACTO</h2>
+            <hr class="bg-info mb-4" />
+            <form>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div>
+                    <button type="submit" data-bs-toggle="tooltip" data-bs-placement="bottom" class="btn-send">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="container-footer">
+        <div class="footer">
+        <div>
+             VIAJES CHILE
+        </div>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+        </div>
+    </div>
+    </footer>
+
+    <!--Agrega vinculo a js de bootstrap 5.2.1-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+ 
+    <!--Agrega vinculo a jquery 3.6.1-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <!--Agrega vinculo a mi js-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
