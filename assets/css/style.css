@@ -52,11 +52,9 @@ main{
 
 /*Sección contacto*/
 .contact{
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+    }
 .form-label{
     color: #FFFFFF;
     font-size: 20px;
