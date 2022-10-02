@@ -7,9 +7,9 @@ $(function () {
  $(document).scroll(function () {
     const y = $("html").scrollTop();
       //alert(y);
-      y > 550 ? $("nav").addClass("nav-black") : $("nav").removeClass("nav-black");
-      y >= 0 & y<= 700 ? $("#nav1").addClass("active") : $("#nav1").removeClass("active");
-      y >= 700 & y<= 900 ? $("#nav2").addClass("active") : $("#nav2").removeClass("active");
-      y >= 900 & y<= 1400 ? $("#nav3").addClass("active") : $("#nav3").removeClass("active");
-      y >= 1400 ? $("#nav4").addClass("active") : $("#nav4").removeClass("active");
+      y > 740 ? $("nav").addClass("nav-black") : $("nav").removeClass("nav-black");
+      y >= 0 & y<= 740 ? $("#nav1").addClass("active") : $("#nav1").removeClass("active");
+      y >= 740 & y<= 1280 ? $("#nav2").addClass("active") : $("#nav2").removeClass("active");
+      y >= 1280 & y<= 1780 ? $("#nav3").addClass("active") : $("#nav3").removeClass("active");
+      y >= 1780 ? $("#nav4").addClass("active") : $("#nav4").removeClass("active");
   });  

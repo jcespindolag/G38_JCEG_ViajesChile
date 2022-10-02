@@ -14,7 +14,7 @@ main{
 /*Sección quiénes somos*/
 .about-us{
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .subtitle{
     font-size: 30px;
@@ -43,6 +43,9 @@ main{
 }
 
 /*Sección destacados*/
+.relevant{
+    margin-top: 10px;
+}
 .card{
     background-color: black;
 }
@@ -52,9 +55,8 @@ main{
 
 /*Sección contacto*/
 .contact{
-    margin-top: 40px;
-    padding: 20px;
-    }
+    padding: 50px;
+}
 .form-label{
     color: #FFFFFF;
     font-size: 20px;
