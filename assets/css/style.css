@@ -46,6 +46,10 @@ main{
 .relevant{
     margin-top: 10px;
 }
+.relevant img{
+    height: 120px;
+    object-fit: cover;
+}
 .card{
     background-color: black;
 }
