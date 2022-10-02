@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a id="nav1" class="nav-link" aria-current="page" href="#home">Inicio</a>
+                            <a id="nav1" class="nav-link" aria-current="page" href="#carouselExampleControls">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a id="nav2" class="nav-link" href="#about-us">Quiénes Somos</a>
@@ -53,35 +53,30 @@
 
     <main>
         <!--Agrega el carrusel de bootstrap-->
-        <section class="carousel">
-            <div id="home" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen 1 carousel">
+         <section class="carousel" >
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Imagen carrusel 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Imagen carrusel 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Imagen carrusel 3">
+                  </div>
                 </div>
-                <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Imagen 2 carousel">
-                </div>
-                <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Imagen 3 carousel">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
-
+        
         <!--Agrega sección Quiénes Somos-->
         <section id="about-us" class="about-us display container">
             <h2 class="subtitle">¿QUIÉNES SOMOS?</h2>

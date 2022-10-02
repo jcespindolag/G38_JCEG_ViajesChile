@@ -59,7 +59,8 @@ main{
 
 /*Sección contacto*/
 .contact{
-    padding: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 .form-label{
     color: #FFFFFF;
