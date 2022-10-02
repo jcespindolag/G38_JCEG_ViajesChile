@@ -13,8 +13,8 @@ main{
 
 /*Sección quiénes somos*/
 .about-us{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .subtitle{
     font-size: 30px;
@@ -52,8 +52,8 @@ main{
 
 /*Sección contacto*/
 .contact{
-    padding-top: 40px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    padding: 20px;
     }
 .form-label{
     color: #FFFFFF;
@@ -77,4 +77,7 @@ main{
 .nav-black{
     background-color:#0DCAF0;
     opacity: 0.8;
+}
+.nav-black a{
+    color: black;
 }
