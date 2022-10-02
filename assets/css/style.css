@@ -74,14 +74,16 @@ main{
 /*Footer*/
 .footer{
     height: 80px;
-    background-color: #0DCAF0;
+    background-color: #0DCAF0 !important;
     color: #FFFFFF;
     font-size: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nav-black{
+
+/*JS del Navbar*/
+ .nav-black{
     background-color:#0DCAF0;
     opacity: 0.8;
 }
