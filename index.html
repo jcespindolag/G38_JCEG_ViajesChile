@@ -140,31 +140,38 @@
         </section>
 
         <!--Agrega sección contacto con Form de Bootstrap-->
-        <section class="contact container">
-            <h2 id="contact" class="subtitle">CONTACTO</h2>
-            <hr class="bg-info mb-4"/>
-            <form>
+            <!--Formulario con validación de campos-->
+            <section class="contact container">
+                <h2 id="contact" class="subtitle">CONTACTO</h2>
+                <hr class="bg-info mb-4"/> 
+            <div>
+                <form id="formulario" class="needs-validation was-validated" novalidate>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Nombre</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <label for="ValidationName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="ValidationName" required minlength="5" maxlenght="50">
+                    <div class="valid-feedback">Nombre ingresado</div>
+                    <div class="invalid-feedback">(*) Campo obligatorio: Ingrese su nombre</div>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Asunto</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <label for="ValidationSubmit" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="ValidationSubmit" required minlength="5" maxlenght="50">
+                    <div class="valid-feedback">Tema ingresado</div>
+                    <div class="invalid-feedback">(*) Campo obligatorio: Ingrese el tema</div>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-send btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar el formulario" id="enviar">
-                     Enviar
-                    </button>
-                </div>
+                    <label for="ValidationMessage" class="form-label">Mensaje</label>
+                    <textarea rows="4" class="form-control" id="ValidationMessage" required minlength="1" maxlenght="500"></textarea>
+                    <div class="valid-feedback">Mensaje ingresado</div>
+                    <div class="invalid-feedback">(*) Campo obligatorio: Ingrese el mensaje</div>
+                </div>             
+                <button type="submit" class="btn btn-send btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar el formulario" id="Enviar">
+                    Enviar
+                </button>
             </form>
+            </div>  
         </section>
     </main>
-    
+
     <!--Agrega footer-->
     <footer class="container-fluid footer">
          <div>
