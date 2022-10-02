@@ -1,9 +1,10 @@
+/*Agrega Tooltip que despliega dirección en iconos de redes sociales en footer*/
 $(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();
   });
-  
-  $(document).scroll(function () {
+
+/*Modifica propiedades de footer cuando pasa del carrusel*/
+ $(document).scroll(function () {
     const y = $("html").scrollTop();
-  
-    y > 300 ? $("nav").addClass("nav-black") : $("nav").removeClass("nav-black");
+      y > 550 ? $("nav").addClass("nav-black") : $("nav").removeClass("nav-black");
   });  
