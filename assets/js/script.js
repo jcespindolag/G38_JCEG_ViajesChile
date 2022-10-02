@@ -3,6 +3,11 @@ $(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();
   });
 
+/*Agrega alerta al enviar el mensaje de contacto*/
+$("#enviar").click(function() {
+    alert("El mensaje fue enviado... Pronto nos pondremos en contacto con usted. Gracias!!!");
+  });
+
 /*Modifica propiedades de footer cuando pasa del carrusel*/
  $(document).scroll(function () {
     const y = $("html").scrollTop();
